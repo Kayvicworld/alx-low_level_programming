@@ -1,22 +1,20 @@
 #include "main.h"
-#include <string.h>
-
 /**
- * main - Entry point
+ * main - main function
  *
- * Description: prints_putchar using putchar protype
- *
- * Return: Always 0 (Success)
+ * Return: End program
  */
-
 int main(void)
 {
-	char str[] = "_putchar";
-	int ch;
+	char string[8] = "_putchar";
+	int n = 0;
 
-	for (ch = 0; ch < 8; ++ch)
-		_putchar(str[ch]);
-		_putchar('\n');
+	while (n < 8)
+	{
+		_putchar(string[n]);
+		++n;
+	}
 
+	_putchar(10);
 	return (0);
 }
