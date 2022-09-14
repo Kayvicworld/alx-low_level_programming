@@ -14,10 +14,10 @@ void times_table(void)
 
 	while (row < 10)
 	{
+
 		while (col < 10)
 		{
-
-	           	n = col * row;
+			n = col * row;
 			units = n % 10;
 			tens = (n - units) / 10;
 			if (col > 0)
@@ -32,7 +32,6 @@ void times_table(void)
 		}
 		col = 0;
 		row++;
-		_putchar(10)
+		_putchar(10);
 	}
 }
-
