@@ -5,7 +5,7 @@
  * @n: parameter
  *
  * Return: return value
- */ 
+ */
 void print_diagonal(int n)
 {
 	int m = 0;
