@@ -25,4 +25,4 @@ void more_numbers(void)
 		l++;
 		_putchar(10);
 	}
-}	
+}
